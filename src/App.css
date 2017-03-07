@@ -1,54 +1,53 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 80px;
+    height: 80px;
 }
 
 .App-header {
-  background-color: #34495e;
-  height: 150px;
-  padding: 20px;
-  color: white;
-  margin-bottom: 50px;
+    background-color: #34495e;
+    height: 150px;
+    padding: 20px;
+    color: white;
+    margin-bottom: 50px;
 }
 
 .state {
-  font-size: 1.7em;
-  text-transform: uppercase;
+    font-size: 1.7em;
+    text-transform: uppercase;
 }
 
 .drinks {
-  font-size: 2.5em;
+    font-size: 2.5em;
 }
 
 .ticker {
-  font-size: 5.5em;
-  font-family: consolas;
+    font-size: 5.5em;
+    font-family: consolas;
 }
 
 .flash {
-  animation-name: flash;
-  animation-duration: 0.25s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-play-state: running;
+    animation-name: flash;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
 }
 
 @keyframes flash {
     from {
-      color: red;
-      font-size: 1em;
+        color: red;
+        font-size: 1em;
     }
-    
-    to { 
-      color: black;
-      font-size: 2em;
+    to {
+        color: black;
+        font-size: 2em;
     }
 }
 
 button.hidden {
-  display:none;
+    display: none;
 }
