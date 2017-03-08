@@ -1,0 +1,8 @@
+{
+    "name": "Century Club",
+    "short_name": "Century",
+    "lang": "en-US",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#1e384c"
+}
